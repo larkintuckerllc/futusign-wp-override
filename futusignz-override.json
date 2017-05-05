@@ -1,0 +1,21 @@
+{
+    "name" : "futusign Override",
+    "slug" : "futusignz-override",
+    "download_url" : "http://futusign-wordpress.s3-website-us-east-1.amazonaws.com/futusignz-override-0-1-0.zip",
+    "version" : "0.1.0",
+    "author" : "John Tucker",
+    "sections" : {
+        "description" : "Add futusign Override feature",
+        "installation": "Upload and activate the <code>futusignz-override</code> plugin via the plugin admin page",
+        "changelog" : "<p><b>0.1.0</b></p><p>Initial release</p>"
+    },
+    "homepage": "https://www.futusign.com",
+    "requires": "4.3",
+    "tested": "4.7",
+    "author_homepage": "https://github.com/larkintuckerllc",
+    "last_updated": "2017-05-03 00:00:00",
+    "upgrade_notice": "Initial release",
+    "banners": {
+      "low": "http://futusign-wordpress.s3-website-us-east-1.amazonaws.com/banner-772x250.jpg"
+    }
+}
