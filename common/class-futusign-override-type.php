@@ -33,11 +33,8 @@ class Futusign_Override_Type {
 	 * @since    0.1.0
 	 */
 	public function register() {
-		$object_types = array( 'futusign_slide_deck', 'futusign_screen' );
+		$object_types = array( 'futusign_slide_deck', 'futusign_screen', 'futusign_image' );
 		/*
-		if (class_exists( 'Futusign_Image' )) {
-			array_push( $object_types, 'futusign_image' );
-		}
 		if (class_exists( 'Futusign_Web' )) {
 			array_push( $object_types, 'futusign_web' );
 		}
