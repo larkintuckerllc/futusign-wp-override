@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Show missing futusign
  *
- * @since    0.3.0
+ * @since    0.1.0
  */
 function futusign_override_missing_futusign() {
 	$is_installed = Futusign_Override::is_plugin_installed( 'futusign' );

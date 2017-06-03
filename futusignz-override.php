@@ -9,7 +9,7 @@
  * Plugin Name:      futusign Override
  * Plugin URI:       https://www.futusign.com
  * Description:      Add futusign Override feature
- * Version:          0.3.0
+ * Version:          0.4.0
  * Author:           John Tucker
  * Author URI:       https://github.com/larkintuckerllc
  * License:          Custom
