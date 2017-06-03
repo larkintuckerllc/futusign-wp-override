@@ -37,17 +37,12 @@ class Futusign_Override_Type {
 		if (class_exists( 'Futusign_MediaDeck' )) {
 			array_push( $object_types, 'futusign_media_deck' );
 		}
-		/*
 		if (class_exists( 'Futusign_Web' )) {
 			array_push( $object_types, 'futusign_web' );
 		}
 		if (class_exists( 'Futusign_Youtube' )) {
 			array_push( $object_types, 'futusign_yt_video' );
 		}
-		if (class_exists( 'Futusign_Layer' )) {
-			array_push( $object_types, 'futusign_layer' );
-		}
-		*/
 		$labels = array(
 			 'name' => __( 'Overrides', 'futusign_override' ),
 			 'singular_name' => __( 'Override', 'futusign_override' ),

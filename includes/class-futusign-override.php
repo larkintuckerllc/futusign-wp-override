@@ -30,7 +30,7 @@ class Futusign_Override {
 		if ( 'futusign' == $plugin ) {
 			return class_exists( 'Futusign' );
 		} elseif ( 'all' == $plugin ) {
-			return class_exists( 'WP_REST_Controller' ) && class_exists( 'acf' ) && class_exists( 'ACF_TO_REST_API' ) && class_exists( 'Futusign' );
+			return class_exists( 'acf' ) && class_exists( 'Futusign' );
 		}
 		return false;
 	}
